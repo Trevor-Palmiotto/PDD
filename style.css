@@ -1,0 +1,24 @@
+body {
+  background-color: #333;
+  height: 98vh;
+  overflow: hidden;
+  font-family: "Courier New";
+}
+#top {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#top #fps {
+  font-family: "Courier New";
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100;
+  height: 95;
+}
